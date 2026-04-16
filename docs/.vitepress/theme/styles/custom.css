@@ -1,0 +1,406 @@
+/* ========================================
+   AI Learning Path - Custom Theme Styles
+   护眼 + 现代科技感 + 阅读优化
+   ======================================== */
+
+/* ---------- Code Font (JetBrains Mono) loaded via head in config ---------- */
+
+/* ---------- Brand Colors ---------- */
+:root {
+  --vp-c-brand-1: #6366f1;
+  --vp-c-brand-2: #4f46e5;
+  --vp-c-brand-3: #818cf8;
+  --vp-c-brand-soft: rgba(99, 102, 241, 0.1);
+}
+
+/* ---------- Light Mode - Eye-Friendly ---------- */
+:root {
+  --vp-c-bg: #F8F9FA;
+  --vp-c-bg-soft: #f1f3f5;
+  --vp-c-bg-mute: #e9ecef;
+  --vp-c-text-1: #2C3E50;
+  --vp-c-text-2: #5a6c7d;
+  --vp-c-text-3: #8899a6;
+
+  /* Code font */
+  --vp-code-font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Consolas', monospace;
+  --vp-code-line-height: 1.65;
+}
+
+/* ---------- Dark Mode Optimization ---------- */
+.dark {
+  --vp-c-bg: #0f172a;
+  --vp-c-bg-soft: #1e293b;
+  --vp-c-bg-mute: #1e293b;
+  --vp-c-text-1: #e2e8f0;
+  --vp-c-text-2: #94a3b8;
+  --vp-c-text-3: #64748b;
+}
+
+/* ---------- Base Typography ---------- */
+body {
+  font-family: "Noto Sans CJK SC", "Noto Sans SC", "Inter", -apple-system, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+.vp-doc {
+  font-size: 16px !important;
+  line-height: 1.8 !important;
+}
+
+/* ---------- Headings ---------- */
+.vp-doc h1 {
+  font-size: 1.9em;
+  border-bottom: 2px solid var(--vp-c-divider);
+  padding-bottom: 10px;
+  margin-top: 20px;
+  color: var(--vp-c-text-1);
+}
+
+.vp-doc h2 {
+  font-size: 1.45em;
+  margin-top: 36px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--vp-c-divider);
+  color: var(--vp-c-text-1);
+}
+
+.vp-doc h3 {
+  font-size: 1.2em;
+  margin-top: 28px;
+  color: var(--vp-c-text-1);
+}
+
+/* ---------- Tables - Rounded + Borders + Hover ---------- */
+.vp-doc table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--vp-c-divider);
+  margin: 16px 0;
+  font-size: 14px;
+  width: 100%;
+  display: table;
+}
+
+.vp-doc th {
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
+  padding: 10px 14px;
+  text-align: left;
+  border-bottom: 2px solid var(--vp-c-divider);
+}
+
+.vp-doc td {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--vp-c-divider);
+  word-break: break-word;
+}
+
+.vp-doc tr:last-child td {
+  border-bottom: none;
+}
+
+.vp-doc tr:nth-child(even) {
+  background: var(--vp-c-bg-soft);
+}
+
+.vp-doc tr:hover {
+  background: var(--vp-c-brand-soft);
+  transition: background 0.2s ease;
+}
+
+.dark .vp-doc th {
+  color: var(--vp-c-brand-3);
+}
+
+/* ---------- Code Blocks - Zebra Striping ---------- */
+.vp-doc div[class*='language-'] {
+  border-radius: 10px;
+  margin: 16px 0;
+  font-size: 14px;
+}
+
+.vp-doc div[class*='language-'] code {
+  font-family: var(--vp-code-font-family);
+  line-height: var(--vp-code-line-height);
+}
+
+/* Zebra striping for code lines */
+.vp-doc div[class*='language-'] .line:nth-child(even) {
+  background: rgba(127, 127, 127, 0.05);
+}
+
+.dark .vp-doc div[class*='language-'] .line:nth-child(even) {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+/* Inline code */
+.vp-doc :not(pre) > code {
+  font-family: var(--vp-code-font-family);
+  font-size: 0.88em;
+  border-radius: 4px;
+  padding: 2px 6px;
+  background: var(--vp-c-bg-mute);
+  color: var(--vp-c-brand-1);
+}
+
+/* Dark code blocks blend with background */
+.dark .vp-doc div[class*='language-'] {
+  background: #1e293b !important;
+}
+
+/* ---------- Blockquotes ---------- */
+.vp-doc blockquote {
+  border-left: 4px solid var(--vp-c-brand-1);
+  background: var(--vp-c-brand-soft);
+  border-radius: 0 8px 8px 0;
+  padding: 12px 16px;
+  margin: 16px 0;
+}
+
+/* ---------- Nav Blur Effect ---------- */
+.VPNav {
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+}
+
+/* ---------- Smooth Scroll ---------- */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ---------- Outline Active Indicator Animation ---------- */
+.VPDocOutlineItem .is-active {
+  transition: all 0.3s ease;
+}
+
+.VPDocOutline .outline-marker {
+  transition: top 0.3s cubic-bezier(0.4, 0, 0.2, 1), height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ---------- Copy Button Animation ---------- */
+.vp-code-copy:hover {
+  transform: scale(0.95);
+  transition: transform 0.1s ease;
+}
+
+/* ---------- View Transitions ---------- */
+@supports (transition: view-transition-group) {
+  ::view-transition-old(root) {
+    animation: 0.15s ease-out both fade-out;
+  }
+  ::view-transition-new(root) {
+    animation: 0.15s ease-in both fade-in;
+  }
+}
+
+@keyframes fade-out {
+  to { opacity: 0; }
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+}
+
+/* ---------- Sidebar ---------- */
+.VPSidebar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--vp-c-divider) transparent;
+  transition: margin-left 0.3s ease, opacity 0.3s ease;
+}
+
+/* Sidebar collapsed state */
+body.sidebar-collapsed .VPSidebar {
+  margin-left: -280px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+body.sidebar-collapsed .VPContent {
+  padding-left: 0 !important;
+}
+
+body.sidebar-collapsed .VPDoc .content-container,
+body.sidebar-collapsed .VPDoc .container {
+  max-width: 100% !important;
+}
+
+/* Ensure resources page has full width */
+.resources-page .resources-grid {
+  max-width: 100%;
+}
+
+/* ---------- Resources Page Full Width ---------- */
+.VPDoc:has(.resources-page) .container {
+  max-width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.VPDoc:has(.resources-page) .content {
+  max-width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.VPDoc:has(.resources-page) .content-container {
+  max-width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.VPDoc:has(.resources-page) .aside {
+  display: none !important;
+}
+
+.VPDoc:has(.resources-page) {
+  padding-left: 0 !important;
+}
+
+/* ---------- Custom Badges ---------- */
+.badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0 4px;
+}
+.badge-p0 { background: #fef2f2; color: #dc2626; }
+.badge-p1 { background: #fffbeb; color: #d97706; }
+.badge-p2 { background: #f0fdf4; color: #16a34a; }
+
+.dark .badge-p0 { background: rgba(220, 38, 38, 0.15); }
+.dark .badge-p1 { background: rgba(217, 119, 6, 0.15); }
+.dark .badge-p2 { background: rgba(22, 163, 74, 0.15); }
+
+/* ---------- Meta Tags ---------- */
+.meta-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  background: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider);
+  margin-right: 6px;
+}
+
+/* ---------- Reading Progress Bar (top) ---------- */
+.reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #6366f1, #8b5cf6, #a78bfa);
+  z-index: 999;
+  transition: width 0.1s linear;
+}
+
+/* ---------- Details/Summary Styling ---------- */
+.vp-doc details {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin: 12px 0;
+  background: var(--vp-c-bg-soft);
+}
+
+.vp-doc details summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--vp-c-brand-1);
+  padding: 4px 0;
+}
+
+.vp-doc details summary:hover {
+  color: var(--vp-c-brand-2);
+}
+
+/* ---------- Print Styles ---------- */
+@media print {
+  .VPNav, .VPSidebar, .reading-progress, .VPDocAside { display: none !important; }
+  .VPContent { padding: 0 !important; }
+  .vp-doc { font-size: 12px !important; }
+  body { background: white !important; }
+}
+
+
+
+/* ---------- Mobile Responsive ---------- */
+@media (max-width: 768px) {
+  .vp-doc {
+    font-size: 15px !important;
+    padding: 0 12px !important;
+  }
+
+  .vp-doc h1 { font-size: 1.5em !important; }
+  .vp-doc h2 { font-size: 1.25em !important; }
+  .vp-doc h3 { font-size: 1.1em !important; }
+
+  /* Tables: horizontal scroll instead of squeeze */
+  .vp-doc table {
+    font-size: 13px;
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Code blocks */
+  .vp-doc div[class*='language-'] {
+    font-size: 12px !important;
+    margin: 12px -12px;
+    border-radius: 0;
+  }
+
+  .vp-doc pre {
+    font-size: 12px !important;
+    padding: 12px !important;
+  }
+
+  /* Blockquote */
+  .vp-doc blockquote {
+    margin: 12px -12px;
+    border-radius: 0;
+    padding: 10px 14px;
+  }
+
+  /* Progress section in sidebar */
+  .progress-section {
+    margin: 12px 8px !important;
+    padding: 10px !important;
+  }
+
+  /* Lists */
+  .vp-doc ul, .vp-doc ol {
+    padding-left: 18px;
+  }
+
+  /* Reduce top padding on mobile */
+  .VPContent {
+    padding-top: 56px !important;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .vp-doc {
+    font-size: 14px !important;
+    padding: 0 8px !important;
+  }
+
+  .vp-doc h1 { font-size: 1.35em !important; }
+  .vp-doc h2 { font-size: 1.15em !important; }
+
+  .vp-doc table { font-size: 12px; }
+  .vp-doc td, .vp-doc th { padding: 6px 8px; }
+
+  .vp-doc pre { font-size: 11px !important; padding: 10px !important; }
+
+  /* Hide progress bar on very small screens */
+  .reading-progress { height: 2px; }
+}

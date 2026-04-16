@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" height="440" style="max-width:100%;height:auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Noto Sans SC',sans-serif">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="100%" style="stop-color:#818cf8"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed"/>
+      <stop offset="100%" style="stop-color:#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b5cf6"/>
+      <stop offset="100%" style="stop-color:#c4b5fd"/>
+    </linearGradient>
+    <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f59e0b"/>
+      <stop offset="100%" style="stop-color:#fbbf24"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="440" fill="#ffffff" rx="12"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" font-size="20" fill="#1e293b" text-anchor="middle" font-weight="700">20 周学习路线总览</text>
+  <text x="400" y="55" font-size="12" fill="#94a3b8" text-anchor="middle">总学习时间 300-350 小时 · 每周 15-18 小时</text>
+  
+  <!-- Grid lines -->
+  <line x1="160" y1="70" x2="160" y2="420" stroke="#f1f5f9" stroke-width="1"/>
+  <line x1="288" y1="70" x2="288" y2="420" stroke="#f1f5f9" stroke-width="1"/>
+  <line x1="416" y1="70" x2="416" y2="420" stroke="#f1f5f9" stroke-width="1"/>
+  <line x1="544" y1="70" x2="544" y2="420" stroke="#f1f5f9" stroke-width="1"/>
+  <line x1="672" y1="70" x2="672" y2="420" stroke="#f1f5f9" stroke-width="1"/>
+  
+  <!-- Week labels -->
+  <text x="160" y="82" font-size="9" fill="#94a3b8" text-anchor="middle">W0</text>
+  <text x="224" y="82" font-size="9" fill="#94a3b8" text-anchor="middle">W5</text>
+  <text x="288" y="82" font-size="9" fill="#94a3b8" text-anchor="middle">W5</text>
+  <text x="352" y="82" font-size="9" fill="#94a3b8" text-anchor="middle">W10</text>
+  <text x="416" y="82" font-size="9" fill="#94a3b8" text-anchor="middle">W10</text>
+  <text x="480" y="82" font-size="9" fill="#94a3b8" text-anchor="middle">W15</text>
+  <text x="544" y="82" font-size="9" fill="#94a3b8" text-anchor="middle">W15</text>
+  <text x="608" y="82" font-size="9" fill="#94a3b8" text-anchor="middle">W20</text>
+  
+  <!-- Stage bars -->
+  <!-- Stage 1: AI Basics, W1-2 -->
+  <text x="150" y="107" font-size="12" fill="#1e293b" text-anchor="end" font-weight="500">AI 基础理论</text>
+  <rect x="160" y="94" width="52" height="20" rx="4" fill="url(#g1)" opacity="0.85"/>
+  <text x="186" y="108" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">30-40h</text>
+  
+  <!-- Stage 2: Prompt & FC, W3-4 -->
+  <text x="150" y="139" font-size="12" fill="#1e293b" text-anchor="end" font-weight="500">Prompt &amp; FC</text>
+  <rect x="212" y="126" width="52" height="20" rx="4" fill="url(#g2)" opacity="0.85"/>
+  <text x="238" y="140" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">30-35h</text>
+  
+  <!-- Stage 3: Engineering, W5 -->
+  <text x="150" y="171" font-size="12" fill="#1e293b" text-anchor="end" font-weight="500">工程基建</text>
+  <rect x="264" y="158" width="26" height="20" rx="4" fill="url(#g3)" opacity="0.85"/>
+  <text x="277" y="172" font-size="8" fill="#ffffff" text-anchor="middle" font-weight="600">15h</text>
+  
+  <!-- Stage 4: RAG, W6-7 -->
+  <text x="150" y="203" font-size="12" fill="#1e293b" text-anchor="end" font-weight="500">RAG 深度攻坚</text>
+  <rect x="290" y="190" width="52" height="20" rx="4" fill="url(#g1)" opacity="0.85"/>
+  <text x="316" y="204" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">35-40h</text>
+  
+  <!-- Stage 5: Agent, W8-10 -->
+  <text x="150" y="235" font-size="12" fill="#1e293b" text-anchor="end" font-weight="500">Agent 架构</text>
+  <rect x="342" y="222" width="78" height="20" rx="4" fill="url(#g2)" opacity="0.85"/>
+  <text x="381" y="236" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">40-50h</text>
+  
+  <!-- Stage 6: Frameworks, W11-13 -->
+  <text x="150" y="267" font-size="12" fill="#1e293b" text-anchor="end" font-weight="500">框架实战</text>
+  <rect x="420" y="254" width="78" height="20" rx="4" fill="url(#g3)" opacity="0.85"/>
+  <text x="459" y="268" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">35-40h</text>
+  
+  <!-- Stage 7: MCP, W14 -->
+  <text x="150" y="299" font-size="12" fill="#1e293b" text-anchor="end" font-weight="500">MCP &amp; A2A</text>
+  <rect x="498" y="286" width="26" height="20" rx="4" fill="url(#g1)" opacity="0.85"/>
+  <text x="511" y="300" font-size="8" fill="#ffffff" text-anchor="middle" font-weight="600">15h</text>
+  
+  <!-- Stage 8: Multimodal, W15 -->
+  <text x="150" y="331" font-size="12" fill="#1e293b" text-anchor="end" font-weight="500">多模态</text>
+  <rect x="524" y="318" width="26" height="20" rx="4" fill="url(#g2)" opacity="0.85"/>
+  <text x="537" y="332" font-size="8" fill="#ffffff" text-anchor="middle" font-weight="600">15h</text>
+  
+  <!-- Stage 9: Deploy, W16 -->
+  <text x="150" y="363" font-size="12" fill="#1e293b" text-anchor="end" font-weight="500">部署优化</text>
+  <rect x="550" y="350" width="26" height="20" rx="4" fill="url(#g3)" opacity="0.85"/>
+  <text x="563" y="364" font-size="8" fill="#ffffff" text-anchor="middle" font-weight="600">20h</text>
+  
+  <!-- Stage 10: Security, W17 -->
+  <text x="150" y="395" font-size="12" fill="#1e293b" text-anchor="end" font-weight="500">安全 &amp; 可观测</text>
+  <rect x="576" y="382" width="26" height="20" rx="4" fill="url(#g4)" opacity="0.85"/>
+  <text x="589" y="396" font-size="8" fill="#ffffff" text-anchor="middle" font-weight="600">15h</text>
+  
+  <!-- Stage 11: Interview, W18-20 -->
+  <text x="150" y="427" font-size="12" fill="#1e293b" text-anchor="end" font-weight="500">面试准备</text>
+  <rect x="602" y="414" width="78" height="20" rx="4" fill="url(#g4)" opacity="0.9"/>
+  <text x="641" y="428" font-size="9" fill="#ffffff" text-anchor="middle" font-weight="600">50-60h</text>
+</svg>
