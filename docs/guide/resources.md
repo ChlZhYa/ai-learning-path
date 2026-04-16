@@ -58,6 +58,33 @@ const sections = [
     ]
   },
   {
+    icon: '📖',
+    title: '文字学习资料（碎片时间适用）',
+    color: '#ec4899',
+    items: [
+      { name: 'Anthropic Prompt Engineering 指南', desc: 'Claude 官方提示工程手册，结构化、可迭代', url: 'https://docs.anthropic.com/en/docs/build-with-clause/prompt-engineering/overview' },
+      { name: 'Google Prompt Engineering Guide', desc: '68页 PDF，免费下载，含交互式 notebook', url: 'https://ai.google.dev/gemini-api/docs/prompting-intro' },
+      { name: 'OpenAI Cookbook', desc: '生产级代码示例，含 RAG/Agent/FC', url: 'https://cookbook.openai.com/' },
+      { name: 'dair-ai/Prompt-Engineering-Guide', desc: 'GitHub 开源指南，含 Function Calling notebook', url: 'https://github.com/dair-ai/Prompt-Engineering-Guide' },
+      { name: 'LearnPrompting', desc: '交互式在线手册，覆盖基础到高级', url: 'https://learnprompting.org/' },
+      { name: 'Lilian Weng 博客', desc: 'OpenAI 团队，高质量技术博客', url: 'https://lilianweng.github.io/' },
+      { name: 'Chip Huyen《AI Engineering》', desc: '构建可靠 AI 系统的实践指南', url: 'https://huyenchip.com/ai-engineering-handbook/' },
+      { name: 'RAG 技术深入指南', desc: 'Beyond Naive RAG，Agentic RAG 实战', url: 'https://www.genaiprotos.com/blog/8-rag-architecture' },
+      { name: '生产级 RAG 设计原则', desc: '检索质量、分层架构、可观测性', url: 'https://medium.com/@dhruvingale1926/how-to-design-production-ready-rag-and-ai-agent-systems-in-2026-0ab5dcddee0b' },
+      { name: 'LangGraph 官方文档', desc: '状态化多 Agent 工作流，含完整教程', url: 'https://langchain-ai.github.io/langgraph/' },
+      { name: 'OpenAI Agents SDK 官方文档', desc: 'Agent/Tool/Handoff/Guardrail 一站式', url: 'https://openai.github.io/openai-agents-python/quickstart/' },
+      { name: 'CrewAI 官方文档', desc: '角色驱动多 Agent 协作框架', url: 'https://docs.crewai.com/' },
+      { name: 'MCP 协议官方文档', desc: 'Anthropic 发布，AI 连接外部工具标准', url: 'https://modelcontextprotocol.io/' },
+      { name: 'A2A 协议官方文档', desc: 'Google 发布，Agent 间通信标准', url: 'https://a2aprotocol.ai/' },
+      { name: 'DeepLearning.AI《A2A Protocol》', desc: '免费短课程，Andrew Ng 主讲', url: 'https://www.deeplearning.ai/short-courses/a2a-the-agent2agent-protocol/' },
+      { name: 'MachineLearningMastery Agentic AI 路线图', desc: '从数学基础到 Agent 部署的完整路径', url: 'https://machinelearningmastery.com/the-roadmap-for-mastering-agentic-ai-in-2026/' },
+      { name: '6 大 Agent 框架对比', desc: 'LangGraph vs CrewAI vs PydanticAI vs OpenAI SDK', url: 'https://pub.towardsai.net/i-compared-6-python-ai-agent-frameworks-so-you-dont-have-to-langgraph-vs-crewai-vs-pydanticai-vs-d8a5e6e43262' },
+      { name: 'Google Codelabs Advanced RAG', desc: '分块策略、Reranker、HyDE、Step-back', url: 'https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/8-advanced-rag-methods/advanced-rag-methods' },
+      { name: 'datawhalechina/hello-agents', desc: '中文 Agent 入门教程，GitHub 开源', url: 'https://github.com/datawhalechina/hello-agents' },
+      { name: 'Hugging Face NLP Course', desc: '免费交互式课程，含 Transformer/RAG', url: 'https://huggingface.co/learn/nlp-course/chapter1/1' },
+    ]
+  },
+  {
     icon: '🛠️',
     title: '实践平台',
     color: '#10b981',
