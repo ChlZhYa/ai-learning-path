@@ -16,7 +16,8 @@ export default defineConfig({
     nav: [
       { text: '学习路线', link: '/guide/' },
       { text: '面试专题', link: '/guide/interview' },
-      { text: '资源汇总', link: '/guide/resources' }
+      { text: '资源汇总', link: '/guide/resources' },
+      { text: '持仓分析', link: '/portfolio/' }
     ],
     sidebar: {
       '/guide/': [
