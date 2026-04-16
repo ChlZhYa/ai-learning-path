@@ -32,4 +32,4 @@ title: 9.1 推理框架 + 9.2 量化
 - `InternLM/lmdeploy`：https://github.com/InternLM/lmdeploy
 
 **课程：**
-- HuggingFace《Efficient LLM Deployment》
+- HuggingFace《Efficient LLM Deployment》：https://huggingface.co/learn/llm-course/chapter9/1

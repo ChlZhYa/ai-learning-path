@@ -24,11 +24,11 @@ const sections = [
     title: '必看课程',
     color: '#8b5cf6',
     items: [
-      { name: '3Blue1Brown《But what is a GPT?》', desc: '可视化讲解，B站有中文字幕', url: '' },
-      { name: 'Karpathy《Let\'s build GPT from scratch》', desc: '从零实现 GPT，YouTube/B站', url: '' },
+      { name: '3Blue1Brown《But what is a GPT?》', desc: '可视化讲解，B站有中文字幕', url: 'https://www.youtube.com/watch?v=wjZofJX0v4M' },
+      { name: 'Karpathy《Let\'s build GPT from scratch》', desc: '从零实现 GPT，YouTube/B站', url: 'https://www.youtube.com/watch?v=kCc8FmEb1nY' },
       { name: 'Andrew Ng《AI Agentic Design Patterns》', desc: 'DeepLearning.AI 免费课程', url: 'https://www.deeplearning.ai/short-courses/ai-agentic-design-patterns/' },
       { name: 'DeepLearning.AI《Building RAG Agents》', desc: 'RAG 实战免费短课程', url: 'https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/' },
-      { name: '李沐《Transformer 论文逐行精读》', desc: 'B站搜索"李沐 transformer"', url: '' },
+      { name: '李沐《Transformer 论文逐行精读》', desc: 'B站有中文字幕', url: 'https://www.bilibili.com/video/BV1pu411o7BE' },
     ]
   },
   {

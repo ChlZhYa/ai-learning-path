@@ -16,5 +16,5 @@ title: 第八阶段：多模态 Agent
 
 ### 学习资料清单
 
-- DeepLearning.AI《Multimodal RAG》
+- DeepLearning.AI《Multimodal RAG》：https://www.deeplearning.ai/short-courses/multimodal-rag-llamaindex/
 - `openai/whisper` — 开源语音识别：https://github.com/openai/whisper
